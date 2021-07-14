@@ -1,0 +1,18 @@
+[package]
+name = "mustache-core"
+version = "0.1.0"
+authors = ["Kishan Patel <kpatel20538@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = ["macros", "mustache-wasm"]
+
+[dependencies]
+serde_json = "1.0"
+v_htmlescape = "0.13"
+
+[dev-dependencies]
+macros = { path = "macros" }
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+

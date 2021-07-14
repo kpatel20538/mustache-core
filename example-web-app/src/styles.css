@@ -1,0 +1,13 @@
+textarea {
+  resize: none;
+}
+
+.fab {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.output {
+  min-height: 75vh;
+}
